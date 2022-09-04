@@ -2,7 +2,7 @@
 
 I've decided to treat myself to a long holiday vacation in Honolulu, Hawaii! To help with my trip planning,I'll need to do some climate analysis on the area. The following sections outline the steps I will take to accomplish this task.
 
-Part 1: Climate Analysis and Exploration
+## Part 1: Climate Analysis and Exploration
 
 In this section, I’ll use Python and SQLAlchemy to perform basic climate analysis and data exploration of my climate database. The following tasks have been completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
@@ -21,7 +21,7 @@ Python was linked to the database by creating a SQLAlchemy session.
 
 
 
-Precipitation Analysis
+### Precipitation Analysis
 
 To perform an analysis of precipitation in the area,the following steps were taken:
 
@@ -49,7 +49,7 @@ Pandas was used to print the summary statistics for the precipitation data.
 
 
 
-Station Analysis
+### Station Analysis
 
 To perform an analysis of stations in the area, the following steps were taken:
 
@@ -92,7 +92,7 @@ Session Closed.
 
 
 
-Part 2: Designing the Climate App
+## Part 2: Designing the Climate App
 
 I’ll design a Flask API based on the queries that I have just developed.
 Flask was used to create the routes, as follows:
